@@ -1,0 +1,20 @@
+/* Custom styling for Streamlit */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #2E86C1;
+}
+
+.stButton button {
+    background-color: #28B463;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.stButton button:hover {
+    background-color: #239B56;
+    color: white;
+}
