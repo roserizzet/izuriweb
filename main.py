@@ -1,6 +1,7 @@
 
 import streamlit as st
 
+
 # Load custom CSS
 def load_css():
     with open("style.css") as f:
@@ -30,12 +31,13 @@ load_css()
 st.markdown(
     """
     <div style="display: flex; align-items: center;">
-        <img src="logo.jpg"  style="width: 50px; margin-right: 10px;">
+        <img src="static/izuri-logo.jpg" style="width: 50px; margin-right: 10px;">
         <h1 style="display: inline;">Welcome to IZURI INC</h1>
     </div>
     """,
     unsafe_allow_html=True,
 )
+
 
 st.markdown(
     """

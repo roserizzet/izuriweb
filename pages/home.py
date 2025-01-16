@@ -17,12 +17,19 @@ def footer():
 st.markdown(
     """
     <div style="display: flex; align-items: center;">
-        <img src="logo.jpg"  style="width: 50px; margin-right: 10px;">
-        <h1 style="display: inline;">IZURI INC</h1>
+        <img src="static/izuri-logo.jpg" style="width: 50px; margin-right: 10px;">
+        <h1 style="display: inline;">Welcome to IZURI INC</h1>
     </div>
     """,
     unsafe_allow_html=True,
 )
+
+#debugger
+import os
+
+print(os.path.exists("static/izuri-logo.jpg"))  # Should return True
+#end debuger
+
 st.image("IMG_zurico.png", caption="IZURI: Excellence Delivered")
 st.markdown("IZURI provides top-notch IT and export services.")
 

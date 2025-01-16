@@ -16,7 +16,7 @@ def footer():
 st.title("Our Services")
 service = st.selectbox(
     "Choose a category",
-    ["-- Select --", "IT Consultation and Development", "Export Services"]
+    ["-- Select --", "IT Consultation and Development", "Export Services", "All"]
 )
 if service == "IT Consultation and Development":
     st.subheader("IT Consultation and Development")
